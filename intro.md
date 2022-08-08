@@ -214,7 +214,8 @@ Linux指的是操作系统内核，基于这个内核开发的操作系统叫做
 
 推荐 [Linux 入门教程](https://nju-projectn.github.io/ics-pa-gitbook/ics2021/linux.html)
 
-## 程序设计语言
+## 程序设计语言与开发环境
+
 
 ## GDB/LLDB
 
