@@ -203,7 +203,7 @@ Linux指的是操作系统内核，基于这个内核开发的操作系统叫做
 * 对系统更强的掌控力：应用程序通常无法满足 power user 的全部需求
 * 生产系统的事实标准：Linux, macOS, Windows, ...运维基本都靠命令行工具
 * 来自开源社区的礼物：非常丰富、可定制、看得见源码的软件栈
-* 对计算机系统更深层次的了解：通过各类工具（strace、gdb等）了解，~~通过命令行和70年代的程序员交流~~
+* 对计算机系统更深层次的了解：通过各类工具（strace、gdb等）了解软件是工作的，~~通过命令行和70年代的程序员交流~~
 
 一些你需要知道的命令行基本内容:
 
@@ -224,16 +224,102 @@ Linux指的是操作系统内核，基于这个内核开发的操作系统叫做
 * `rm 文件`: 删除文件.
 * `man 命令`: 显示命令的使用方法.
 
-推荐 [Linux 入门教程](https://nju-projectn.github.io/ics-pa-gitbook/ics2021/linux.html)
+推荐
+
+[Linux 入门教程](https://nju-projectn.github.io/ics-pa-gitbook/ics2021/linux.html)
+
+[命令行的艺术](https://github.com/jlevy/the-art-of-command-line)
+
+## Github: 拥抱开源
+
+从功能上来说，GitHub 是一个在线代码托管平台。你可以将你的本地 Git 仓库托管到 GitHub 上，供多人同时开发浏览。但现如今 GitHub 的意义已远不止如此，它已经演变为一个非常活跃且资源极为丰富的开源交流社区。全世界的软件开发者在 GitHub 上分享各式各样种类繁多的开源软件。大到工业级的深度学习框架 PyTorch, TensorFlow，小到几十行的实用脚本，既有硬核的知识分享，也有保姆级的教程指导，甚至很多技术书籍也在 GitHub上开源，所以闲来无事去逛逛 GitHub吧, 用好 [Github 的 “Awesome” 系列](https://github.com/search?q=awesome)。
+
+如果你还从未在 GitHub 上建立过自己的远程仓库，也没有克隆过别人的代码，那么我建议你从 [GitHub的官方教程](https://docs.github.com/cn/get-started)和这份[CheetSheet](https://github.com/tiimgreen/github-cheat-sheet)开始自己的开源之旅。
+
+GitHub 之所以成功，我想是得益于“我为人人，人人为我”的开源精神，得益于知识分享的快乐。如果你也想成为下一个万人敬仰的开源大佬，或者下一个 star 破万的项目作者。那就把你在开发过程中灵感一现的 idea 化作代码，展示在 GitHub 上吧～
+
+不过需要提醒的是，开源社区不是法外之地，很多开源软件并不是可以随意复制分发甚至贩卖的，了解各类[开源协议](https://docs.github.com/cn/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)(比如本项目采用的是Do What The F*ck You Want To Public License)并遵守，不仅是法律的要求，更是每个开源社区成员的责任。
 
 ## 程序设计语言与开发环境
 
-首先声明，所有的语言都是世界上最好的语言，有差别只是写他们的程序员。我接触过的编程语言很多，比如C\C\++,Python,Java,Go,Rust, JavaScript,Shell以及格式各样的汇编，从我个人的角度推荐，，面向对象的语言(典型的C++，Java，Python)自不必说，作为CS学生至少掌握一门系统级语言(C\\C++,Rust)不过分吧？掌握一门脚本(python JavaScript)语言平常写写脚本偷偷懒，想要早点找工作那Java和Go至少得2选1，最后无论你想学什么语言，请记住，他们都是在描述某种状态机，这些状态机最终都要在编译器/解释器的转换下，变成真正数字电路上的状态机（机器语言）。
+首先声明，所有的语言都是世界上最好的语言，有差别只是写他们的程序员。我接触过的编程语言很多，比如C\C\++,Python,Java,Go,Rust, JavaScript,Shell以及格式各样的汇编，从我个人的角度推荐，，面向对象的语言(典型的C++，Java，Python)自不必说，作为CS学生至少掌握一门系统级语言(C\\C++,Rust)不过分吧？掌握一门脚本(python JavaScript)语言平常写写脚本偷偷懒，想要早点找工作那Java和Go至少得2选1，最后无论你想学什么语言，请记住，他们都是在描述某种状态机，这些状态机最终都要在编译器/解释器的转换下，变成真正数字电路上的状态机（机器语言）。如果有兴趣，不妨来看看[Hello World in every computer language](https://github.com/leachim6/hello-world)。
+
+大部分程序设计语言对开发环境有要求，而开发环境并不完全是IDE(Integrated Development Environment,集成开发环境)。首先要明白，理论上你可以用记事本写任何程序，但没有对应的开发环境或者环境有问题(缺少必要的库，版本等)是没有办法将程序运行起来。在这有必要说明一些程序是怎样运行起来，我们写的程序本质上都是文本文件(不用管什么后缀,都是文本文件)，但计算机是不能执行普通的文本文件的(.sh/.bat 除外)，因此在执行前需要将其翻译成一种可以被计算机执行的形式(可执行文件)，而完成这份工作的便是编译器。一般来说，有两种翻译方式，第一种是像C语言一样，在执行前就将所有的代码翻译为机器语言，第二种是像python这样，翻译一条语句，执行一条。两者最直观的区别就是第一种会在编译时报错，而第二种会在运行时报错。如果想要深入了解编译器是如何工作的可以去学习编译原理这门课。
+
+一般来说，最简单的配置开发环境方式就是安装IDE，但切记IDE并不是唯一的解决方案。很多 IDE 是为大型工程项目设计的，体量较大，功能也过于丰富。其实如今一些轻便的文本编辑器配合丰富的插件生态基本可以满足日常的轻量编程需求。个人常用的编辑器是 VS Code （插件配置非常简单）。当然对于大型项目我还是会采用略重型的 IDE，例如 Pycharm (Python)，IDEA (Java)，GoLand（Go） 等等（免责申明：所有的 IDE 都是世界上最好的 IDE）。
 
 ## GDB/LLDB
 
+机会没有人能够写出完全正确的程序，调试一般会占到开发的50%以上，~~俗话说得好，一杯茶一包烟，一个程序调一天。~~
+
+调试程序有几种方法:
+
+* **硬看:** 除了能看出来一些~~弱智~~手误问题外，基本没啥用.
+* **print 大法:** 对小问题有用, 但一旦问题复杂起来, 你将迷失在巨量的日志里, 大脑过载, 难以自拔.
+* **使用 IDE 提供的调试功能:** 比较有用, 但也比较复杂. 而且有些情况你没法用 IDE 的调试器解决, 比如你开发的项目并没有使用IDE或者说有些语言根本没有IDE(~~点名批评Rust~~)。
+* **使用 GDB/LLDB 等调试器:** 适用范围极广, 但相对较难上手，上手后会体验到调试的快乐。
+
+一些你需要知道的基本内容(以编译器为gcc为例):
+
+* **编译带调试信息程序:** `gcc/g++ -g -O0 ...` 没有调试信息的程序是没有办法进行调试的，~~你连礼物都不给调试器带还指望她做什么呢.~~
+* **用调试器载入程序:** `gdb/lldb 程序名`.
+* **用调试器载入程序并指定启动参数:** `gdb --args 程序名 参数 ...`, `lldb 程序名 -- 参数 ...`, 此时会进入调试器的命令行. 后续命令均需要在调试器的命令行中执行，也可以通过 `setargs 参数 `在进入调试器设置。
+* **添加断点:** `b 函数名`, `b 文件名:行号`.
+* **删除断点:** GDB: `d 断点编号`, LLDB: `br del 断点编号`.
+* **查看所有断点:** GDB: `info b`, LLDB: `br list`.
+* **执行程序:** `r`.
+* **单步执行, 跳过函数:** `n`.
+* **单步执行, 进入函数:** `s`.
+* **继续执行直到断点/出错:** `c`.
+* **查看调用栈:** `bt`.
+* **切换调用栈:** GDB: `frame 编号`, LLDB: `frame select 编号`.
+* **暂停执行:** `Ctrl + C`.
+* **退出:** `q` 或 `Ctrl + D`.
+
+一个例子:
+
+你写的编译器出现了段错误——这种问题使用 `print` 大法调试效率很低, 因为你很难知道你的编译器到底在何处出现了段错误, 进而无法得知应该在何处插入 `print`. 遇到这种情况, 不妨使用调试器载入程序并运行, 当程序出现段错误时, 调试器会停住并进入命令行供你操作. 此时你就可以使用 `bt` 查看调用栈, 定位出错的位置, 然后在合适的地方下断点, 并重新运行程序来进一步调试了.
+
+过于调试的更多信息和方法在[The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)有提到，也可以阅读[How To Debug Your Code](https://www.freecodecamp.org/news/what-is-debugging-how-to-debug-code/)
+
+推荐:
+
+* [GDB cheat sheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf).
+* [LLDB cheat sheet](https://www.nesono.com/sites/default/files/lldb%20cheat%20sheet.pdf).
+* [100个GDB小技巧](https://wizardforcel.gitbooks.io/100-gdb-tips/content/).
+
 ## Docker
 
+Docker 是容器技术的一种实现, 而容器技术又是一种轻量级的虚拟化技术. 你可以简单地把容器理解成虚拟机: 容器中可以运行另一个操作系统, 它和你的宿主系统是隔离的.**Docker 的局限性之一，它只能用在 64 位的操作系统上**。
+
+当然, 容器和虚拟机实际上并不相同, 若感兴趣可自行 STFW, 此处不做过多介绍.
+
+基于 Docker, 我们可以很方便地完成各类 “配环境” 的操作:
+
+* 负责配置环境的人只需要写好 `Dockerfile`, 然后使用 Docker 构建镜像即可. 和环境相关的所有内容, 包括系统里的某些配置, 或者安装的工具链, 都被封装在了镜像里.
+* 需要使用环境的人只要拿到镜像, 就可以基于此创建一个容器, 然后在里面完成自己的工作. 开箱即用, 不需要任何多余的操作, 十分省时省力.
+* 如果某天不再需要环境, 直接把容器和镜像删除就完事了, 没残留也不拖泥带水, 干净又卫生.
+
+你可以访问 [Docker 的官方网站](https://docs.docker.com/get-docker/) 来安装 Docker. 安装完毕后, 你可能需要重启你的系统. Docker 是支持 Windows, macOS 和 Linux 三大平台的, 所以 **你可以直接在你的宿主系统 (而不是虚拟机中) 安装 Docker** .
+
+一些你需要知道的内容：
+
+* 拉取镜像：`docker pull ...` linux中需要sudo权限，拉取镜像的速度可能并不快. 为了加快从 Docker Hub 拉取镜像的速度, 你可以自行 STFW, 为你系统中的 Docker 配置 Docker Hub Mirror.
+* 构建镜像：`docker build -t ... .`
+* 运行容器：`docker run -it ...`使用镜像创建一个临时的容器.启动这个临时容器.这里其实出现了两个概念: “镜像” 和 “容器”. 你可以把它们理解为: 前者是一个硬盘, 里面装好了操作系统, 但它是静态的, 你不能直接拿它来运行. 后者是一台电脑, 里面安装了硬盘, 就能运行对应的操作系统.
+* 删除容器：`docker rm ...`
+* 删除镜像：`docker rmi ...`
+* 查看容器：`docker ps -a` 命令会列出刚刚我们执行 docker run 时创建的临时容器.
+* 查看镜像：`docker images` 命令会列出刚刚我们执行 docker build 时创建的镜像.
+* 创建镜像：`docker commit ...` 命令会创建一个镜像, 并且把容器的内容拷贝到镜像中.
+* 创建容器：`docker create ...` 命令会创建一个临时容器, 并且把镜像的内容拷贝到容器中.
+
+推荐
+* [Docker 学习笔记](https://github.com/jaywcjlove/docker-tutorial)
+
+关于 Docker 的其他用法, 请参考 [Docker 的官方文档](https://docs.docker.com/engine/reference/commandline/docker/), 或根据情况自行 STFW.
+
 ## 生存指南
+
 
 # 其他推荐
