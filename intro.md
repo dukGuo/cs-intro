@@ -192,7 +192,7 @@ Git 是一款分布式的代码版本控制工具(VCS)，出自大神Linus之手
 Linux指的是操作系统内核，基于这个内核开发的操作系统叫做Linux的发行版，比较有名的发行版包括：Ubuntu、RedHat、CentOS等，对于CSer来说，为什么Linux会比Windows更好一点：
 
 * 一些开发只能基于Linux进行，比如ROS。
-* 在Windows下安装一些包/环境需要下载安装包并手动配置环境变量，而在Linux上只需apt install xxx(不要花太多实践和经历在配环境上)。
+* 在Windows下安装一些包/环境需要下载安装包并手动配置环境变量，而在Linux上只需apt install xxx(不要花太多时间和精力在配环境上)。
 * 有些Tool-kit在window下虽然显示安装完成了，但当你使用的时候就会报错，比如在windows下配置CUDA took-kit，安装完成后，使用nvcc -v是可以正常工作的，但当你真的用nvcc去编译CUDA文件时会报错，找不到cl.exe。
 * 在Linux下你可以很轻松的通过man来RTFM，具体可以参考[man入门教程](https://nju-projectn.github.io/ics-pa-gitbook/ics2021/man.html)，而在windows虽然也支持man，但是手册的内容很干燥，请自行对比。
   ![1659844486095](image/intro/1659844486095.png)![1659844518755](image/intro/1659844518755.png)
