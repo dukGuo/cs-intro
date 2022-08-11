@@ -363,7 +363,7 @@ Docker 是容器技术的一种实现, 而容器技术又是一种轻量级的�
 * [Crash-Course-Computer-Science-Chinese: 计算机速成课 ](https://github.com/1c7/Crash-Course-Computer-Science-Chinese)很棒的入门课
 * [CS自学指南 (csdiy.wiki)](https://csdiy.wiki/) 提供了很多自学课程和资源，大部分为英文
 * [HowToCook: 程序员在家做饭方法指南。Programmer&#39;s guide about how to cook at home ](https://github.com/Anduin2017/HowToCook)
-* [HowToLiveLonger: 程序员延寿指南 | A programmer&#39;s guide to live longer](https://github.com/geekan/HowToLiveLonger)
+* [HowToLiveLonger: 程序员延寿指南A programmer&#39;s guide to live longer](https://github.com/geekan/HowToLiveLonger)
 * [RegExr: 学习、构建 和 测试 正则表达式 Test RegEx (regexr-cn.com)](https://regexr-cn.com/)
 * [Stack Overflow - Where Developers Learn, Share, &amp; Build Careers](https://stackoverflow.com/)
 * [z-library](https://z-lib.org/) 电子书下载网站
