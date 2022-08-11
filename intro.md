@@ -145,7 +145,7 @@ for i=0:5
 * [https://github.com/bannedbook/fanqiang](https://github.com/bannedbook/fanqiang)
 * [https://github.com/Alvin9999/new-pac](https://github.com/Alvin9999/new-pac)
 
-PS：打个小广告, 个人自用[VPN]()，100/年，不限带宽，最多支持3设备。点此注册我会获得10%你充值的总额的收益。如果介意，可在注册时去掉邀请码。
+PS：打个小广告, 个人自用[VPN](https://sodacloud.pw/auth/register?code=FzGQ)，100/年，不限带宽，最多支持3设备。点此注册我会获得10%你充值的总额的收益。如果介意，可在注册时去掉邀请码。
 
 ## Git
 
@@ -375,6 +375,7 @@ Docker 是容器技术的一种实现, 而容器技术又是一种轻量级的�
 * [FiraCode: Free monospaced font with programming ligatures ](https://github.com/tonsky/FiraCode)强推这款字体，舒适度极大提升(从命令行到IDE均可使用)，安装自行SWTF
 * [程序员英语词汇宝典 ](https://learn-english.dev/) 常见英语单词
 * [ English-level-up-tips-for-Chinese ](https://babyyoung.gitbook.io/english-level-up-tips/) 可能是让你受益匪浅的英语进阶指南
+* [ 编程入门指南 ](https://www.kancloud.cn/kancloud/intro-to-prog/52592)
 
 # 碎碎念
 
