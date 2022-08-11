@@ -372,7 +372,7 @@ Docker 是容器技术的一种实现, 而容器技术又是一种轻量级的�
 * [free-programming-books: Freely available programming books ](https://github.com/EbookFoundation/free-programming-books)免费编程书籍
 * [《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被55个国家的300所大学用于教学。 ](https://github.com/d2l-ai/d2l-zh)李沐大佬的DL书，B站有对应视频
 * [DevOps-Guide: DevOps Guide - Development to Production all configurations with basic notes to debug efficiently. ](https://github.com/Tikam02/DevOps-Guide)常用工具教程
-* [FiraCode: Free monospaced font with programming ligatures ](https://github.com/tonsky/FiraCode)强推这款字体，舒适度极大提升(从命令行到IDE均可使用)，安装自行SWTF
+* [FiraCode: Free monospaced font with programming ligatures ](https://github.com/tonsky/FiraCode)强推这款字体，舒适度极大提升(从命令行到IDE均可使用)，安装自行STFW
 * [程序员英语词汇宝典 ](https://learn-english.dev/) 常见英语单词
 * [ English-level-up-tips-for-Chinese ](https://babyyoung.gitbook.io/english-level-up-tips/) 可能是让你受益匪浅的英语进阶指南
 * [ 编程入门指南 ](https://www.kancloud.cn/kancloud/intro-to-prog/52592)
