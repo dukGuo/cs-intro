@@ -259,7 +259,7 @@ GitHub 之所以成功，我想是得益于“我为人人，人人为我”的�
 
 推荐：
 
-* [Python Tutor: Learn Python, JavaScript, C, C++, and Java by visualizing code](https://pythontutor.com/) 可以在这个网站上可视化你等程序
+* [Python Tutor: Learn Python, JavaScript, C, C++, and Java by visualizing code](https://pythontutor.com/) 可以在这个网站上可视化你的程序
 
 对于一些语言的碎碎念：
 
