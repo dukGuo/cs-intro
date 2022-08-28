@@ -101,6 +101,7 @@ for i=0:5
   * 在向别人求助之前自己先尝试通过正确的方式使用搜索引擎独立寻找解决方案
 * RTFSC:    Read The ~~Fucking~~ Friendly Source Code	去读源码
   * 源码之下，了无秘密
+
 想了解[更多](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md#rtfm-%E5%92%8C-stfw%E5%A6%82%E4%BD%95%E7%9F%A5%E9%81%93%E4%BD%A0%E5%B7%B2%E5%AE%8C%E5%85%A8%E6%90%9E%E7%A0%B8%E4%BA%86)可以点进去看看，以及推荐[如何读手册](https://nju-projectn.github.io/ics-pa-gitbook/ics2021/1.7.html)。
 
 ### 如何面对问题
